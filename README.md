@@ -2,9 +2,12 @@
 > A Vue.js project
 <br>
 ##### 1.学习使用了form-create在Try_Form_Creator中
+
 form-create可以接受一个JSONArray的方法自动生成前端组件
 <br>
+
 #### 2.学习使用validate
+
 邮箱验证方式:/^\w{3,}(\.\w+)*@[A-z0-9]+(\.[A-z]{2,5}){1,2}$/
 <br>
 汉字的验证方式：/^[\u2E80-\u9FFF]+$/
@@ -19,6 +22,7 @@ validate:[{<br>
   message:"输入",<br>
   trigger:"blur"
 }]<br>
+
 #### 3.正常使用validate函数方法
 
 ## Build Setup
