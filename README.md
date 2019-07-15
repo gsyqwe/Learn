@@ -1,12 +1,11 @@
 # learn
 
 > A Vue.js project
-<br>
 
 ##### 1.学习使用了form-create在Try_Form_Creator中
 
 form-create可以接受一个JSONArray的方法自动生成前端组件
-<br>
+
 
 #### 2.学习使用validate
 
@@ -23,7 +22,7 @@ validate:[{<br>
   pattern:/^[\u2E80-\u9FFF]+$/,<br>
   message:"输入",<br>
   trigger:"blur"
-}]<br>
+}]
 
 #### 3.正常使用validate函数方法
 
