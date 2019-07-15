@@ -1,6 +1,8 @@
 # learn
+
 > A Vue.js project
 <br>
+
 ##### 1.学习使用了form-create在Try_Form_Creator中
 
 form-create可以接受一个JSONArray的方法自动生成前端组件
