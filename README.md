@@ -1,11 +1,9 @@
 # learn
-
 > A Vue.js project
 
 ##### 1.学习使用了form-create在Try_Form_Creator中
 
 form-create可以接受一个JSONArray的方法自动生成前端组件
-
 
 #### 2.学习使用validate
 
@@ -24,7 +22,17 @@ validate:[{<br>
   trigger:"blur"
 }]
 
-#### 3.正常使用validate函数方法
+#### 3.对单独Input框进行验证的方法在Try_Validator
+
+1.对单独的input框使用<span>的提示框进行验证与提示
+<br>
+2.使用Form与FormItem进行验证，在FormItem使用props=""来表明使用的唯一的标识
+<br>
+3.在Form中使用:rules="" 来表明使用的规则
+<br>
+4.在return外面写const validator=(rule,value,callback)=>{
+<br> 填写具体的验证方法,使用callback来显示验证信息,并可以与后端交互}
+
 
 ## Build Setup
 
