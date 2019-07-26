@@ -7,6 +7,9 @@ import Validator from 'vue-validator'
 import formCreator from 'form-create'
 import 'iview/dist/styles/iview.css';
 import iView from 'iview'
+import axios from 'axios'
+
+Vue.prototype.$http=axios
 
 Vue.use(iView)
 Vue.use(Validator)

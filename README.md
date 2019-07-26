@@ -33,6 +33,19 @@ validate:[{<br>
 4.在return外面写const validator=(rule,value,callback)=>{
 <br> 填写具体的验证方法,使用callback来显示验证信息,并可以与后端交互}
 
+#### 4.增加布局方式
+
+1.使用absolute布局时，每次遇到absolute时，页面都会重新进行渲染，导致对浏览器的性能负担增大，
+所以一般情况下不使用absolute布局，只有在布局比较复杂，且横向布局较多时使用absolute
+<br>
+2.能使用css解决的布局的问题，尽量不使用js解决，因为js函数会增大浏览器负担
+<br>
+3.增加了实现三列液态布局：不定高；左右两列定宽（eg: 200px， 150px），中间列可自适应宽度。
+的方法，在example中写了几种实现方法
+<br>
+4.增加了实现栅格布局的方法,在Try_Grids中
+<br>
+
 
 ## Build Setup
 
