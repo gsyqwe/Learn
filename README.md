@@ -46,6 +46,13 @@ validate:[{<br>
 4.增加了实现栅格布局的方法,在Try_Grids中
 <br>
 
+#### 5.增加了如何自己创建Tab页的方法
+
+1.在Switch_Detail中使用了jquery的方法进行了创建,在vue中使用jquery
+需要进行的配置(https://www.cnblogs.com/eyed/p/7850946.html),
+index.vue index.js index.css为符合标准的创建方法,
+Try_Switch为直接使用的柔和在一起的创建方法
+
 
 ## Build Setup
 

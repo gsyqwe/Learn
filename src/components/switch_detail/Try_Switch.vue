@@ -12,8 +12,8 @@
 </template>
 
 <script>
-  import { jq } from '../js/jquery-1.9.0.min'
-  import { login } from '../js/login'
+  import { jq } from '../../js/jquery-1.9.0.min'
+  import { login } from '../../js/login'
   export default {
     name: "login",
     data(){
