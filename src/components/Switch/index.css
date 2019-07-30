@@ -1,0 +1,70 @@
+.gsy-div{
+  position:relative;
+  font-weight: bold;
+  cursor:pointer;
+  width: 96px;
+  height: 54px;
+}
+.gsy-switch {
+  display: block;
+  position: relative;
+  width: 96px;
+  height: 54px;
+  border: 1px solid #DFDFDF;
+  outline: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  background-color: #DFDFDF;
+  transition: background-color 0.1s, border 0.1s;
+  cursor: pointer;
+}
+.gsy-div-1{
+  position:absolute;
+  left:10px;
+  top:0;
+  line-height:32px;
+  font-size:12px;
+  color:#333333;
+}
+.gsy-div-2{
+  position:absolute;
+  right:11px;
+  top:0;
+  line-height:32px;
+  font-size:12px;
+  color:#999999;
+}
+.gsy-switch:before {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 48px;
+  height: 48px;
+  border-radius: 100px;
+  background-color: #E6E6E6;
+  transition: transform 0.35s cubic-bezier(0.45, 1, 0.4, 1);
+}
+.gsy-switch:after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 48px;
+  height: 48px;
+  border-radius: 100px;
+  background-color: #FFFFFF;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+  transition: transform 0.35s cubic-bezier(0.4, 0.4, 0.25, 1.35);
+}
+.gsy-switch-on {
+  border-color: rgba(105, 190, 75, 1);
+  background-color: rgba(105, 190, 75, 1);
+}
+.gsy-switch-on:before {
+  border-color: rgba(105, 190, 75, 1);
+  background-color: rgba(105, 190, 75, 1);
+}
+.gsy-switch-on:after {
+  transform: translateX(44px);
+}

@@ -53,6 +53,19 @@ validate:[{<br>
 index.vue index.js index.css为符合标准的创建方法,
 Try_Switch为直接使用的柔和在一起的创建方法
 
+#### 6.增加了如何自己创建switch按钮的方法
+
+详情见Switch文件夹中包含文字提示与点击切换的按钮框,可在css中修改
+其样式
+
+#### 7.使用echarts做饼图的方法
+
+详情见Try_Echarts,可以动态配置长度宽度字体等，可以在设置时使用函数
+
+#### 8.增加了单选框的个人实现
+
+详情见Radio中对于单选框的个人实现，可以自定义单选框其样式,横着排列模式
+Radio1中创建了竖着使用的单选框，由html和css组成
 
 ## Build Setup
 

@@ -101,10 +101,19 @@
                   // \n\n可让文字居于牵引线上方，很关键
                   //  {b}  代表显示的内容标题
                   // {c}代表数据
+                    //formatter可以使用函数的方法,params代表其数值和参数,params.value以及params.name
+                  //   formatter: function (params) {
+                  //       return Fontdistance(params)
+                  //   } ,
                   formatter: ' {c} \n\n {b}',
                   borderWidth: 30,
                   borderRadius: 4,
                   padding: [0, -70],
+                    //在textStyle中，fontSize等页可以通过函数进行渲染生成
+                    // textStyle:{
+                    //     fontFamily:'PingFangSC',
+                    //     fontSize: Fontsize(0.25),
+                    // }
                 }
               },
               data: [{

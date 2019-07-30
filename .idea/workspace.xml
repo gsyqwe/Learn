@@ -2,12 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42a1d5da-ee77-4e6c-a0bb-bd0c7635bcc6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/switch_detail/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/switch_detail/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/switch_detail/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Radio/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Radio/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Radio1/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Radio1/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Switch/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Switch/index.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Try_Switch.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/switch_detail/Try_Switch.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/webpack.base.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/webpack.base.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/webpack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/webpack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webpack/bin/config-optimist.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/bin/config-optimist.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webpack/bin/config-yargs.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/bin/config-yargs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webpack/bin/convert-argv.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/bin/convert-argv.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webpack/bin/webpack.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/bin/webpack.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webpack/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Try_Echarts.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Try_Echarts.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/switch_detail/Try_Switch.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/switch_detail/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/switch_detail/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/switch_detail/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/switch_detail/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,21 +51,22 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/switch_detail" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\IDEAWorkSpace\Learn\try\Learn\src\components\switch_detail" />
-      <recent name="C:\Users\Administrator\Desktop\IDEAWorkSpace\Learn\try\Learn\src\components" />
-      <recent name="C:\Users\Administrator\Desktop\IDEAWorkSpace\Learn\try\Learn\src\images" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\IDEAWorkSpace\Learn\try\Learn\src\components\switch_detail" />
       <recent name="C:\Users\Administrator\Desktop\IDEAWorkSpace\Learn\try\Learn\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IDEAWorkSpace\Learn\try\Learn\src\components" />
+      <recent name="E:\IDEAWorkSpace\Learn\try\Learn\src\components\switch_detail" />
+      <recent name="C:\Users\Administrator\Desktop\IDEAWorkSpace\Learn\try\Learn\src\components" />
+      <recent name="C:\Users\Administrator\Desktop\IDEAWorkSpace\Learn\try\Learn\src\images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -88,7 +105,8 @@
       <workItem from="1564022780647" duration="696000" />
       <workItem from="1564027733262" duration="58000" />
       <workItem from="1564102957130" duration="15253000" />
-      <workItem from="1564360654871" duration="2003000" />
+      <workItem from="1564360654871" duration="2632000" />
+      <workItem from="1564446860615" duration="8796000" />
     </task>
     <servers />
   </component>
